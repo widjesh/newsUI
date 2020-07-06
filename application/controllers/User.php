@@ -21,6 +21,8 @@ class User extends CI_Controller
         }
     }
 
+    
+
     public function register()
     {
         $this->form_validation->set_rules('password', 'Password', 'trim|required|min_length[4]');

@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         <div class="card-body">
                             <h3><?= $message ?></h3>
-                            <?= form_open('User/login') ?>
+                            <?= form_open('/User/login') ?>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group bmd-form-group">
